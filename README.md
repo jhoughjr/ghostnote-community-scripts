@@ -33,7 +33,7 @@ How can I add support for an app?
       
       To find a bundle id you can run this on the command line 
       Where $APP_NAME = the common name of the application you are
-      writing the script for.
+      writing the script for, for example `Google Chrome`.
       `osascript -e 'id of app "$APP_NAME"'` and it will return
       the bundle id.
      
