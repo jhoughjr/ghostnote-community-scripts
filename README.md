@@ -30,6 +30,12 @@ How can I add support for an app?
       So to add support for an app "Foo" you must find it's bundle id.
       A script elsewhere in this repo is provided that will display
       the bundle id for a selected app.
+      
+      To find a bundle id you can run this on the command line 
+      Where $APP_NAME = the common name of the application you are
+      writing the script for.
+      `osascript -e 'id of app "$APP_NAME"'` and it will return
+      the bundle id.
      
       if the bundle is of Foo is com.bar.Foo then the script should be named
       "com.bar.Foo.scpt".
